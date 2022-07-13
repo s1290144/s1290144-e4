@@ -4,7 +4,6 @@
 
 int main(){
   int i,c,sum1=0,sum2=0;
-  printf("Tossing a coin...\n");
   srand(time(NULL));
   for(i=0;i<3;i++){
     c=rand()%2;
@@ -17,7 +16,6 @@ int main(){
         sum2++;
     }
   }
-  printf("Heads: %d, Tails: %d\n",sum1,sum2);
   if(sum1>sum2) printf("you won!\n");
   else printf("you lost\n");
   return 0;
