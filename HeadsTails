@@ -18,5 +18,7 @@ int main(){
     }
   }
   printf("Heads: %d, Tails: %d\n",sum1,sum2);
+  if(sum1>sum2) printf("you won!\n");
+  else printf("you lost\n");
   return 0;
 }
