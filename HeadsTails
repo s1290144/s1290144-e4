@@ -24,7 +24,7 @@ int main(){
     }
   }
   printf("Heads: %d, Tails: %d\n",sum1,sum2);
-  if(sum1>sum2) printf("you won!\n"); 
-  else printf("you lost\n");
+  if(sum1>sum2) printf("%s won!\n",name); 
+  else printf("%s lost\n",name);
   return 0;
 }
